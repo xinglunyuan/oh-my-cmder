@@ -1,0 +1,81 @@
+[
+    {
+        "name": "git-for-windows",
+        "version": "v2.11.0.windows.1",
+        "url": "https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.1/PortableGit-2.11.0-32-bit.7z.exe"
+    },
+    {
+        "name": "clink",
+        "version": "0.4.8",
+        "url": "https://github.com/mridgers/clink/releases/download/0.4.8/clink_0.4.8.zip"
+    },
+    {
+        "name": "conemu-maximus5",
+        "version": "161022",
+        "url": "https://github.com/Maximus5/ConEmu/releases/download/v16.10.22/ConEmuPack.161022.7z"
+    },
+    {
+        "name": "clink-completions",
+        "version": "0.3.2",
+        "url": "https://github.com/vladimir-kotikov/clink-completions/archive/0.3.2.zip"
+    },
+    {
+        "name": "platform-tools-windows",
+        "version": "27.0.1",
+        "url": "https://developer.android.com/studio/releases/platform-tools.html"
+    },
+    {
+        "name": "busybox-w32",
+        "version": "v1.28.0-FRP-1722-g096aee2bb",
+        "url": "http://frippery.org/busybox"
+    },
+    {
+        "name": "NirCmd",
+        "version": "v2.81",
+        "url": "http://www.nirsoft.net/utils/nircmd.html"
+    },
+    {
+        "name": "winpty",
+        "version": "0.4.3-cygwin-2.8.0",
+        "url": "https://github.com/rprichard/winpty/releases"
+    },
+    {
+        "name": "sudo for windows",
+        "version": "0.0.1",
+        "url": "https://github.com/mattn/sudo"
+    },
+    {
+        "name": "peco",
+        "version": "v0.5.1",
+        "url": "https://github.com/peco/peco"
+    },
+    {
+        "name": "win32-openssh",
+        "version": "v1.0.0.0-Beta",
+        "url": "https://github.com/PowerShell/Win32-OpenSSH"
+    },
+    {
+        "name": "vim",
+        "version": "8.0",
+        "url": "https://vim.sourceforge.io/download.php"
+    },
+    {
+        "name": "ag",
+        "version": "2018-04-24/2.1.0-34-g5b10c68",
+        "url": "https://github.com/k-takata/the_silver_searcher-win32/releases"
+    },
+    {
+        "name": "GNU global",
+        "version": "6.6.2",
+        "url": "http://adoxa.altervista.org/global/"
+    },
+    {
+        "name": "GNU make",
+        "version": "4.2",
+        "url": "http://gnu.org/make"
+    },
+    {
+        "name": "uwe-sieber tools",
+        "url": "http://www.uwe-sieber.de/english.html"
+    }
+]

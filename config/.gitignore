@@ -1,0 +1,7 @@
+# Ignore everything in this directory
+.history
+cygwin_homepath
+settings
+ConEmu.xml
+# Except these files
+!.gitignore
