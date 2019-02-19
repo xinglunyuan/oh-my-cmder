@@ -16,6 +16,7 @@ set PATH=%CMDER_ROOT%\vendor\openssh;%PATH%
 set PATH=%CMDER_ROOT%\vendor\vim;%PATH%
 set PATH=%CMDER_ROOT%\vendor\sysinternals;%PATH%
 set PATH=%CMDER_ROOT%\vendor\uwe-sieber;%PATH%
+set PATH=%CMDER_ROOT%\vendor\scrcpy;%PATH%
 
 
 set PATH=%CMDER_ROOT%\vendor\gnu;%PATH%
