@@ -493,15 +493,6 @@
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="Flags" type="dword" data="00000001"/>
 				</key>
-				<key name="Task2" modified="2017-12-28 21:26:21" build="161022">
-					<value name="Name" type="string" data="{ubuntu}"/>
-					<value name="GuiArgs" type="string" data=" /icon &quot;%CMDER_ROOT%\icons\ubuntu.ico&quot;"/>
-					<value name="Cmd1" type="string" data="%windir%\system32\bash.exe ~ -cur_console:p:n"/>
-					<value name="Active" type="long" data="0"/>
-					<value name="Count" type="long" data="1"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
-					<value name="Flags" type="dword" data="00000004"/>
-				</key>
 				<key name="Task3" modified="2017-12-28 21:26:21" build="161022">
 					<value name="Name" type="string" data="{powershell}"/>
 					<value name="Hotkey" type="dword" data="00000000"/>

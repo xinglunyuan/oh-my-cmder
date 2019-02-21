@@ -75,6 +75,16 @@
         "url": "http://gnu.org/make"
     },
     {
+        "name": "scrcpy",
+        "version": "1.6",
+        "url": "https://github.com/Genymobile/scrcpy"
+    },
+    {
+        "name": "msls",
+        "version": "4.8.333",
+        "url": "https://u-tools.com/msls"
+    },
+    {
         "name": "uwe-sieber tools",
         "url": "http://www.uwe-sieber.de/english.html"
     }

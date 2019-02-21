@@ -18,9 +18,11 @@ set PATH=%CMDER_ROOT%\vendor\sysinternals;%PATH%
 set PATH=%CMDER_ROOT%\vendor\uwe-sieber;%PATH%
 set PATH=%CMDER_ROOT%\vendor\scrcpy;%PATH%
 
-
 set PATH=%CMDER_ROOT%\vendor\gnu;%PATH%
 set PATH=%CMDER_ROOT%\vendor\github;%PATH%
+
+set PATH=%CMDER_ROOT%\vendor\msls;%PATH%
+set LS_OPTIONS=-bhAC --color=auto --recent --streams
 
 rem cygwin
 set CYGWIN_ROOT=%CMDER_ROOT%\vendor\cygwin
