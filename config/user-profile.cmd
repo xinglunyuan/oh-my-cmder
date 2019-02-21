@@ -20,15 +20,15 @@ set PATH=%CMDER_ROOT%\vendor\scrcpy;%PATH%
 
 set PATH=%CMDER_ROOT%\vendor\gnu;%PATH%
 set PATH=%CMDER_ROOT%\vendor\github;%PATH%
-
+set PATH=%CMDER_ROOT%\vendor\gettext-iconv-windows\bin;%PATH%
 set PATH=%CMDER_ROOT%\vendor\msls;%PATH%
 set LS_OPTIONS=-bhAC --color=auto --recent --streams
 
 rem cygwin
-set CYGWIN_ROOT=%CMDER_ROOT%\vendor\cygwin
+::set CYGWIN_ROOT=%CMDER_ROOT%\vendor\cygwin
 ::%CYGWIN_ROOT%\bin\bash.exe -c "cd ~;/usr/bin/cygpath.exe -awl ." > "%CMDER_ROOT%\config\cygwin_homepath"
 ::set /p HOME=<"%CMDER_ROOT%\config\cygwin_homepath"
-if exist %CMDER_ROOT%\vendor\cygwin\bin (call :cygwin-init)
+::if exist %CMDER_ROOT%\vendor\cygwin\bin (call :cygwin-init)
 
 rem chocolatey
 if exist %CMDER_ROOT%\vendor\chocolatey\bin set PATH=%CMDER_ROOT%\vendor\chocolatey\bin;%PATH%
@@ -47,13 +47,13 @@ goto end
 
 :cygwin-init
 ::set PATHEXT=.SH;.PY;.PL;.LNK;.URL;%PATHEXT%
-set PATH=%CMDER_ROOT%\vendor\cygwin\bin;%PATH%
-set TERM=cygwin
-set LANG=en_US.UTF-8
-set DISPLAY=:0.0
-doskey gitk=bash -i -c "gitk $*"
-doskey gunzip=bash -i -c "gunzip $*"
-doskey grep=grep --color $*
-doskey ls=ls --show-control-chars -F --color $*
+::set PATH=%CMDER_ROOT%\vendor\cygwin\bin;%PATH%
+::set TERM=cygwin
+::set LANG=en_US.UTF-8
+::set DISPLAY=:0.0
+::doskey gitk=bash -i -c "gitk $*"
+::doskey gunzip=bash -i -c "gunzip $*"
+::doskey grep=grep --color $*
+::doskey ls=ls --show-control-chars -F --color $*
 
 :end

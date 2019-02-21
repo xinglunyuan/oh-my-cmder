@@ -85,6 +85,11 @@
         "url": "https://u-tools.com/msls"
     },
     {
+        "name": "gettext-iconv-windows",
+        "version": "gettext 0.19.8.1 + iconv 1.15",
+        "url": "https://github.com/mlocati/gettext-iconv-windows/releases"
+    },
+    {
         "name": "uwe-sieber tools",
         "url": "http://www.uwe-sieber.de/english.html"
     }
