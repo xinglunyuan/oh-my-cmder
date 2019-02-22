@@ -21,10 +21,6 @@ unalias=alias /d $1
 clear=cls
 cd=cdhook.bat $1
 
-;= cygwin
-;= apt-cyg=%CMDER_ROOT%\vendor\cygwin\setup-x86.exe $*
-
-;= git
 ga=git add $*
 gapa=git add --patch $*
 gc!=git commit -v --amend $*
