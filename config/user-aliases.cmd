@@ -19,7 +19,7 @@ open=explorer.exe $*
 history=cat %CMDER_ROOT%\config\.history
 unalias=alias /d $1
 clear=cls
-cd=cdhook.bat $1
+cd=cdhook.bat $*
 
 ga=git add $*
 gapa=git add --patch $*

@@ -4,7 +4,7 @@ if '%*'=='' call :help & exit /b
 if '%1'=='off' (
     alias /d cd
 ) else if '%1'=='on' (
-    alias cd=cdhook.bat $1
+    alias cd=cdhook.bat $*
 )
 exit /b
 
