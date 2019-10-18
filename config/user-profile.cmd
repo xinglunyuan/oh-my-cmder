@@ -34,9 +34,9 @@ rem chocolatey
 if exist %CMDER_ROOT%\vendor\chocolatey\bin set PATH=%CMDER_ROOT%\vendor\chocolatey\bin;%PATH%
 
 rem my-xbin
-::set PATH=%PATH%;%HOME%\xbin\windows\console
-::set PATH=%PATH%;%HOME%\xbin\windows\wrapper
-::set PATH=%PATH%;%HOME%\xbin\python
+set PATH=%PATH%;%HOME%\xbin\windows\console
+set PATH=%PATH%;%HOME%\xbin\windows\wrapper
+set PATH=%PATH%;%HOME%\xbin\python
 
 rem config
 set PATHEXT=.PY;.LNK;.URL;%PATHEXT%
