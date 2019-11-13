@@ -1,3 +1,3 @@
-@echo on
+@echo off
 
 git status %*
