@@ -19,7 +19,7 @@
 ;history=cat %CMDER_ROOT%\config\.history
 ;unalias=alias /d $1
 ;clear=cls
-;cd=ccd.bat $*
+;cd=j.bat $*
 
 ;ga=git add $*
 gapa=git add --patch $*
